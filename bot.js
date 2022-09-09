@@ -10,6 +10,7 @@ const commandHandler = require("./commands");
 
 client.on("ready", () => {
     console.log("Ready 🤖");
+    client.user.setActivity("use >help for beans", { type: "PLAYING" });
 });
 
 client.on("message", commandHandler);

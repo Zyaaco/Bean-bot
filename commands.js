@@ -6,7 +6,7 @@ const beanjson = require("./functions/beanjson");
 const beans = require('./commands/beans.js');
 const help = require('./commands/help.js');
 
-const prefix = "<"; //The prefix of the bot
+const prefix = ">"; //The prefix of the bot
 
 const commands = { beans, help };
 
